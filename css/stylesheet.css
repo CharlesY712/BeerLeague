@@ -1,0 +1,249 @@
+
+html {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("../images/Arena2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  width: 960px;
+  margin: 0px auto 0px auto;
+}
+
+h1 {
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  font-size: 55px;
+  font-family: sans-serif;
+}
+
+h1 a:link { text-decoration: none; color : white; border: 0px;}
+h1 a:active { text-decoration: underline; color : white; border: 0px; }
+h1 a:visited { text-decoration: none; color : white; border: 0px; }
+h1 a:hover { text-decoration: none; color : white; border: 0px; } 
+h1 a:focus { outline: none;}
+
+ul.navbar {
+  text-align: center;
+  width: 900px;
+  margin: 0px auto 0px auto;
+  border-top: 10px double white;
+  border-bottom: 10px double white;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 20px 0px 20px 0px;
+}
+
+
+ul a:link { text-decoration: none; color : white; border: 0px; }
+ul a:active { text-decoration: underline; color : white; border: 0px; }
+ul a:visited { text-decoration: none; color : white; border: 0px; }
+ul a:hover { text-decoration: underline; color : white; border: 0px; } 
+ul a:focus { outline: none;}
+
+li.nav {
+  display: inline;
+  margin-right: 40px;
+  margin-left: 40px
+}
+
+#anthem {
+  width: 560px;
+  margin: 30px auto -30px auto;
+  border: 10px solid black;
+  display: block;
+}
+
+h2 {
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+
+figure a:link { text-decoration: none; color : white; border: 0px;}
+figure a:active { text-decoration: underline; color : white; border: 0px; }
+figure a:visited { text-decoration: none; color : white; border: 0px; }
+figure a:hover { text-decoration: underline; color : white; border: 0px; } 
+figure a:focus { outline: none;}
+
+.caption640 {
+  width: 640px;
+  margin: 0px auto auto auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: 5px solid black;
+  font-family: sans-serif;
+}
+
+.caption560 {
+  width: 560px;
+  margin: 0px auto auto auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: 10px solid black;
+  font-family: sans-serif;
+}
+
+.caption300{
+  width: 300px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: 5px solid black; 
+  font-family: sans-serif;
+}
+
+.caption460 {
+  width: 460px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: 5px solid black;
+  font-family: sans-serif;
+}
+
+img.bordered {
+  border: 5px solid black;
+  display: inline-block;
+}
+
+.column1of3 {
+  width: 300px;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+}
+
+.column1of2 {
+  width: 460px;
+  display: inline-block;
+  margin: 5px;
+}
+
+#trophy {
+  width: 640px;
+  display: inline-block;
+  margin: auto 160px auto 160px;
+}
+
+#lingo {
+  width: 940px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+button.accordion {
+  background-color: #777;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  margin: 5px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+  background-color: #444;
+}
+
+div.panel {
+  padding: 0 18px;
+  background-color: black;
+  color: white;
+  display: none;
+  font-family: sans-serif;
+}
+
+.grey {
+  background-color: #777;
+  color: white;
+  border-radius: 5px;
+  margin: 10px auto auto auto;
+  padding: 0px;
+  font-size: 18px;
+}
+
+.dgrey {
+  display: inline-block;
+  background-color: #444;
+  color: white;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 5px 10px 5px 10px;
+}
+
+.reason {
+  margin: 0px;
+  padding: 5px;
+}
+
+.lback {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+#form {
+  display: inline-block;
+  background-color: #444;
+  color: white;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 5px 10px 5px 10px;
+}
+
+
+.pollback {
+  width: 780px;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+
+.pollhead {
+  display: inline-block;
+  background-color: #444;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+li.pollresults {
+  float: left;
+  list-style-position: inside;
+  background-color: #777;
+  color: white;
+  border-radius: 5px;
+  margin: 5px 5px 5px 5px;
+  padding: 0px 5px 0px 5px;
+  font-size: 18px;
+}
+
